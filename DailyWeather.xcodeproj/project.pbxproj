@@ -37,6 +37,7 @@
 		FBA0AC4C23FE4694002F3A5C /* TLCWeatherForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0AC4B23FE4694002F3A5C /* TLCWeatherForecast.m */; };
 		FBA0AC5023FE47A9002F3A5C /* TLCHourlyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0AC4F23FE47A9002F3A5C /* TLCHourlyForecast.m */; };
 		FBA0AC5323FE52CC002F3A5C /* TLCDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0AC5223FE52CC002F3A5C /* TLCDailyForecast.m */; };
+		FBA0AC5623FE53CE002F3A5C /* TLCCurrentForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0AC5523FE53CE002F3A5C /* TLCCurrentForecast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		FBA0AC4F23FE47A9002F3A5C /* TLCHourlyForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCHourlyForecast.m; sourceTree = "<group>"; };
 		FBA0AC5123FE52CC002F3A5C /* TLCDailyForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCDailyForecast.h; sourceTree = "<group>"; };
 		FBA0AC5223FE52CC002F3A5C /* TLCDailyForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCDailyForecast.m; sourceTree = "<group>"; };
+		FBA0AC5423FE53CE002F3A5C /* TLCCurrentForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCCurrentForecast.h; sourceTree = "<group>"; };
+		FBA0AC5523FE53CE002F3A5C /* TLCCurrentForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCCurrentForecast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +213,8 @@
 				FBA0AC4F23FE47A9002F3A5C /* TLCHourlyForecast.m */,
 				FBA0AC5123FE52CC002F3A5C /* TLCDailyForecast.h */,
 				FBA0AC5223FE52CC002F3A5C /* TLCDailyForecast.m */,
+				FBA0AC5423FE53CE002F3A5C /* TLCCurrentForecast.h */,
+				FBA0AC5523FE53CE002F3A5C /* TLCCurrentForecast.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA0AC5623FE53CE002F3A5C /* TLCCurrentForecast.m in Sources */,
 				FBA0AC4C23FE4694002F3A5C /* TLCWeatherForecast.m in Sources */,
 				BD69316523FD90D100C0DF09 /* LSIFileHelper.m in Sources */,
 				BD69316E23FD912000C0DF09 /* LSISettingsTableVC.m in Sources */,
@@ -526,7 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = DailyWeatherTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = DailyWeatherTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
