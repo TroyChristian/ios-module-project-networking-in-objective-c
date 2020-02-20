@@ -7,9 +7,11 @@
 
 #import <CoreLocation/CoreLocation.h>
 #import "LSIWeatherViewController.h"
+#import "LSICardinalDirection.h"
 #import "LSIWeatherIcons.h"
 #import "LSIErrors.h"
 #import "LSILog.h"
+#import "TLCCurrentForecast.h"
 
 @interface LSIWeatherViewController () {
     BOOL _requestedLocation;
@@ -18,6 +20,29 @@
 @property CLLocationManager *locationManager;
 @property CLLocation *location;
 @property (nonatomic) CLPlacemark *placemark;
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
+@property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
+@property (weak, nonatomic) IBOutlet UILabel *windLabel;
+@property (weak, nonatomic) IBOutlet UILabel *windDirectionLabel; // < not connected in Tylers
+@property (weak, nonatomic) IBOutlet UILabel *apparentTemperatureLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *humidityLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *pressureLabel;
+@property (weak, nonatomic) IBOutlet UILabel *probabilityLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *uvIndexLabel;
+
+
+
+
+
+
+
+
+
 
 @end
 
