@@ -7,7 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "/Users/lambda_school_loaner_219/Documents/ios-module-project-networking-in-objective-c/DailyWeather/LambdaSDK/LSIFileHelper.h"
+#import "/Users/lambda_school_loaner_219/Documents/ios-module-project-networking-in-objective-c/Models/TLCCurrentForecast.h"
+#import "/Users/lambda_school_loaner_219/Documents/ios-module-project-networking-in-objective-c/Models/TLCDailyForecast.h"
+#import "/Users/lambda_school_loaner_219/Documents/ios-module-project-networking-in-objective-c/Models/TLCHourlyForecast.h"
 @interface DailyWeatherTests : XCTestCase
 
 @end
